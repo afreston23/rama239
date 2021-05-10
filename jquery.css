@@ -1,0 +1,115 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  h1 {
+    margin: 0;
+    
+  }
+  
+  #contentContainer {
+    box-sizing: content-box;
+    min-width: 100%;
+    min-height: 100%;
+    text-decoration: none;
+    margin: 0 auto;
+    padding-right: 400px;
+  padding-left: 400px;
+  padding-top: 250px;
+  } 
+ 
+
+
+#clickMe {
+  display: inline-block;
+  padding:10px;
+  font-family: Helvetica;
+  border-radius: 3px;
+  background: lightgray;
+
+}
+
+#clickMe:hover {
+  cursor: pointer;
+}
+
+
+
+
+.darkMode {
+  background: black;
+  color: white;
+
+}
+
+
+.box19{
+  text-decoration: none;
+  
+  padding-bottom: 5px;
+}
+
+.box22{
+  box-sizing: content-box;
+  border-radius: 3px;
+  
+}
+.inStock {
+  padding: 10px;
+  margin: 10px 0;
+  font-family: Helvetica;
+
+}
+
+
+.inStockDivBox {
+  padding: 5px;
+  margin: 5px 0;
+  font-family: Helvetica;
+ background-color: lightgray;
+ 
+  display: flex;
+  justify-content: space-between;
+  border-radius: 3px;
+  
+}
+
+
+.inStockDivBox.darkModeItemBox{
+  background:#303030;
+}
+
+.itemNameText {
+  width: 150px;
+}
+
+.itemPriceText {
+  width: 75px;
+}
+
+.itemDetailsText {
+  width: 250px;
+}
+.container1{
+ 
+  height: 100%;
+  
+}
+#box{
+  border-bottom: 2px solid lightgray;
+  
+  width: 5%;
+  
+}
+#clickMe.darkModeTwo{
+  background: #303030;
+}
+
+#itemBoxThing.darkModeThree{
+  background-color: #303030;
+}
+
+
