@@ -108,7 +108,8 @@ html,body{
   background: #303030;
 }
 
-#itemBoxThing.darkModeThree{
+
+.darkMode .inStockDivBox{
   background-color: #303030;
 }
 
